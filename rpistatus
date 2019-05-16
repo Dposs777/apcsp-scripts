@@ -1,5 +1,5 @@
 #!/bin/bash
-for i in {01..20};
+for i in {01..21};
 do
 	if ping -c 1 "rpi$i" &> /dev/null
 	then
